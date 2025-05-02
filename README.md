@@ -1,66 +1,74 @@
-# Customer Support Chatbot
+# 🏢 Big Mart Sales Interactive Dashboard
 
-A modern customer support chatbot built with Transformers, TensorFlow, NLTK, and Streamlit.
+A beautiful and insightful sales analysis dashboard built with **Streamlit** and **scikit-learn**. It uses the Big Mart dataset and applies linear regression to predict item outlet sales while offering various visualizations to explore trends and patterns.
 
-## Features
 
-- Natural Language Processing using NLTK
-- Deep Learning model using Transformers and TensorFlow
-- Modern and responsive UI using Streamlit
-- Real-time chat interface
-- Text preprocessing and tokenization
-- Context-aware responses
 
-## Prerequisites
+## 🚀 Features
 
-- Python 3.8 or higher
-- pip (Python package installer)
+- 📦 Preprocessed Big Mart dataset with missing values handled  
+- 📊 Exploratory Data Analysis with Seaborn and Matplotlib  
+- 🤖 Linear Regression Model for sales prediction  
+- 📈 Beautiful plots and interactive widgets  
+- 🧠 Powered by `scikit-learn`, `streamlit`, `seaborn`, and `matplotlib`  
+- 🔍 Visual insights into MRP, Outlet Type, Size, Fat Content, and Sales distribution  
 
-## Installation
+---
 
-1. Clone this repository:
+## 🛠️ Installation & Setup
+
+### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd customer-support-chatbot
+git clone https://github.com/your-username/bigmart-sales-dashboard.git
+cd bigmart-sales-dashboard
 ```
 
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install the required packages:
+### 2. Install Required Libraries
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+### 3. Download the Dataset from Kaggle
+This project uses the Big Mart dataset hosted on Kaggle.
 
-1. Start the Streamlit application:
+Ensure you have:
+- A Kaggle account
+- Your `kaggle.json` file placed in `~/.kaggle/` directory
+
+Or let `kagglehub` download it for you from:
+```
+https://www.kaggle.com/datasets/mragpavank/big-mart-sales-dataset
+```
+
+> The app handles automatic download using [`kagglehub`](https://github.com/ayulockin/kagglehub).
+
+---
+
+### 4. Run the Dashboard
+
 ```bash
 streamlit run app.py
 ```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
-3. Start chatting with the bot!
+---
 
-## How it Works
+## 📂 Project Structure
 
-The chatbot uses:
-- NLTK for text preprocessing and tokenization
-- Transformers (DistilBERT) for understanding user queries
-- TensorFlow for model inference
-- Streamlit for the web interface
+```
+bigmart-sales-dashboard/
+│
+├── app.py                # Main Streamlit app
+├── requirements.txt      # Required packages
+└── README.md             # Documentation
+```
 
-## Customization
+---
 
-You can customize the chatbot by:
-- Modifying the response templates in `app.py`
-- Training the model on your specific dataset
-- Adjusting the UI elements in the Streamlit interface
+## 🙋‍♂️ Author
 
-## License
+Made with 💙 by [Vignesh](https://github.com/narevignesh)  
+Big Mart Sales Insights • 2025
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+---
