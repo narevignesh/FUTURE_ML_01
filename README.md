@@ -19,8 +19,8 @@ A beautiful and insightful sales analysis dashboard built with **Streamlit** and
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/bigmart-sales-dashboard.git
-cd bigmart-sales-dashboard
+https://github.com/narevignesh/FUTURE_ML_01.git
+cd FUTURE_ML_01
 ```
 
 ### 2. Install Required Libraries
@@ -57,7 +57,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 ## 📂 Project Structure
 
 ```
-bigmart-sales-dashboard/
+FUTURE_ML_01/
 │
 ├── app.py                # Main Streamlit app
 ├── requirements.txt      # Required packages
